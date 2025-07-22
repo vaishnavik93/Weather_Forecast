@@ -18,18 +18,20 @@ A dynamic web-based weather forecasting application built using **Java Servlets*
 - Eclipse IDE (or any Java IDE)
 
 ## 📁 Project Structure
-weather-app/
+weather_app/
 ├── src/
-│ └── WeatherServlet.java
-├── WebContent/
-│ ├── index.jsp
-│ ├── result.jsp
-│ └── style.css
-└── WEB-INF/
-└── web.xml
-
-
----
+│   └── main/
+│       ├── java/
+│       │   └── MyPackage/
+│       │       └── MyServlet.java
+│       └── webapp/
+│           ├── index.html
+│           ├── index.jsp
+│           └── WEB-INF/
+│               └── web.xml
+├── build/
+├── .project
+└── pom.xml (if using Maven)
 
 ## 🔑 API Key
 
